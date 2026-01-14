@@ -6,6 +6,7 @@ cycle_verb_style = """
     
     .cycle-verb::before {
         display: inline-block;
+        content: "";
         width: 5ch;
         text-align: center;
         animation: word-cycle 21s infinite, fade-cycle 7s infinite;
