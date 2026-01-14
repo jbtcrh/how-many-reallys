@@ -70,4 +70,4 @@ cycle_verb_style = """
 </style>
 """
 
-cycle_verb_element = """<span class="cycle-verb"></span>"""
+cycle_verb_element = """<div class="cycle-verb"></div>"""
