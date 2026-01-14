@@ -1,6 +1,6 @@
 cycle_verb_style = """
 <style>
-    #cycle-verb::before {
+    .cycle-verb::before {
         display: inline-block;
         width: 5ch;
         text-align: center;
@@ -66,4 +66,4 @@ cycle_verb_style = """
 </style>
 """
 
-cycle_verb_element = """<span id="cycle-verb"></span>"""
+cycle_verb_element = """<span class="cycle-verb"></span>"""
