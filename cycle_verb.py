@@ -1,5 +1,9 @@
 cycle_verb_style = """
 <style>
+    .cycle-verb {
+        display: inline-block;
+    }
+    
     .cycle-verb::before {
         display: inline-block;
         width: 5ch;
