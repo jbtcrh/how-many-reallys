@@ -26,7 +26,7 @@ def stream_message():
         yield char
         time.sleep(0.03)
 
-st.write(f"I really^({really_formatted}) like you.")
+st.write(f"I really<sup>({really_formatted})</sup> like you.", unsafe_allow_html=True)
 if st.button("Aren't you a curious thing?"):
     st.write_stream(stream_message)
     with st.popover("Still curious?"):
