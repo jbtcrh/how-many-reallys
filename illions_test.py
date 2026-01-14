@@ -9,7 +9,7 @@ class IllionsTest(unittest.TestCase):
         self.assertEqual("dec", get_illion_prefix(10))
         self.assertEqual("septendec", get_illion_prefix(17))
         self.assertEqual("novemvigint", get_illion_prefix(29))
-        self.assertEqual("unvigintcent", get_illion_prefix(121))
+        self.assertEqual("unviginticent", get_illion_prefix(121))
 
     def test_numbers(self):
         self.assertEqual("1.23 million", format_illions(1_230_000))
