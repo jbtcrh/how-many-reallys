@@ -39,7 +39,7 @@ if st.button("Aren't you a curious thing?"):
         with st.popover("More?"):
             st.write(f"{time_since * 60:.0f} minutes and counting <3")
             with st.popover("Go ahead, let me disregard all good design practices."):
-                st.write(f"That's {time_between.total_seconds():.2f} seconds of absolute *aboration*!")
+                st.write(f"That's {time_between.total_seconds():.2f} ({format_illions(int(time_between.total_seconds()))}) seconds of absolute *aboration*!")
     st.balloons()
 
 # add seasoning but also add the ability to comment and store the pairs in a database, use a cache to calculate the value once per user session or on update
